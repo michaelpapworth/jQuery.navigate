@@ -13,7 +13,7 @@
 		}
 	],
 	"dependencies" : {
-		"jquery", ">=1.6.4"
+		"jquery": ">=1.6.4"
 	},
 	"description" : "An abstraction on site navigation",
 	"homepage" : "http://github.com/michaelpapworth/jQuery.navigate",
