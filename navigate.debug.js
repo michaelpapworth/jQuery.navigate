@@ -22,7 +22,11 @@ jQuery.extend({
 					result += arguments[index] + '/';
 				}
 				return result;
-			}
+			},
+			url: function (identifier, params) {
+				var pattern = jQuery.navigateSettings.endpoints[identifier];
+				return resolve(pattern, params)
+			},
 		};
 
 		var resolve = function (pattern, params) {
