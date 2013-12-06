@@ -8,8 +8,10 @@ The Setup
 
 ```js
 $.navigateSetup({
+	api: /api/,
 	endpoints: {
-		'myAwesomePage': '/controller/action/{id}'
+		'home': '/michaelpapworth',
+		'myAwesomePlugin': '/{user}/{repo}'
 	}
 });
 ```
@@ -17,8 +19,36 @@ $.navigateSetup({
 Usage
 -----
 
+The examples below are based on the setup above, let's assume the root of the site is 'http://github.com'.
+
+How to navigate to the preconfigured **endpoints**?
+
 ```js
-function doTheAwesome(){
-	$.navigate('to', 'myAwesomePage', { id: 123 });
-}
+	// Address bar will read http://github.com/michaelpapworth
+	$.navigate('to', 'home');
+
+	// Address bar will read http://github.com/michaelpapworth/jQuery.navigate
+	$.navigate('to', 'myAwesomePlugin', { user: 'michaelpapworth', repo: 'jQuery.navigate' });
+```
+
+Want to navigate to a **specific url**?
+
+```js
+	$.navigate('goTo', 'http://github.com/michaelpapworth/jQuery.navigate');	
+```
+
+What about your **API**?
+
+```js
+	$.ajax({ type: 'GET', url: $.navigate('api', 'resource', 123) })
+		.done(function(data) {
+			console.log('This data came from "http://github.com/api/resource/123"');
+		});
+```
+
+I just want the **URL**?
+
+```js
+	// Just use the endpoints to build the URL for me
+	var homepageUrl = $.navigate('url', 'home');	
 ```
