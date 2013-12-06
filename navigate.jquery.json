@@ -1,7 +1,7 @@
 {
 	"name" : "navigate",
-	"version" : "1.0.0",
-	"title" : "jQuery.navigate",
+	"version" : "1.0.1",
+	"title" : "jQuery Navigate",
 	"author" : {
 		"name" : "Michael Papworth",
 		"url" : "http://stackoverflow.com/users/2955675/michaelpapworth"
