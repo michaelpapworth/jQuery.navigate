@@ -16,6 +16,13 @@
 		"jquery": ">=1.6.4"
 	},
 	"description" : "An abstraction on site navigation",
+	"keywords": [
+		"navigation",
+		"redirect",
+		"href",
+		"window.location",
+		"url"
+	],
 	"homepage" : "http://github.com/michaelpapworth/jQuery.navigate",
 	"bugs": "https://github.com/michaelpapworth/jQuery.navigate/issues",
 	"maintainers" : [
