@@ -1,0 +1,27 @@
+{
+	"name" : "navigate",
+	"version" : "1.0.0",
+	"title" : "jQuery.navigate",
+	"author" : {
+		"name" : "Michael Papworth",
+		"url" : "http://stackoverflow.com/users/2955675/michaelpapworth"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "https://raw.github.com/michaelpapworth/jQuery.navigate/master/LICENSE"
+		}
+	],
+	"dependencies" : {
+		"jquery", ">=1.6.4"
+	}
+	"description" : "An abstraction on site navigation",
+	"homepage" : "http://github.com/michaelpapworth/jQuery.navigate",
+	"bugs": "https://github.com/michaelpapworth/jQuery.navigate/issues",
+	"maintainers" : [
+		{
+			"name" : "Michael Papworth",
+			"url" : "http://stackoverflow.com/users/2955675/michaelpapworth"
+		}
+	]
+}
