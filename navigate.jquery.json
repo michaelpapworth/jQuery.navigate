@@ -9,22 +9,23 @@
 	"licenses": [
 		{
 			"type": "MIT",
-			"url": "https://raw.github.com/michaelpapworth/jQuery.navigate/master/LICENSE"
+			"url": "http://raw.github.com/michaelpapworth/jQuery.navigate/master/LICENSE"
 		}
 	],
 	"dependencies" : {
 		"jquery": ">=1.6.4"
 	},
 	"description" : "An abstraction on site navigation",
-	"keywords": [
+	"keywords" : [
 		"navigation",
 		"redirect",
 		"href",
 		"window.location",
 		"url"
 	],
+	"docs" : "http://github.com/michaelpapworth/jQuery.navigate/blob/master/README.md",
 	"homepage" : "http://github.com/michaelpapworth/jQuery.navigate",
-	"bugs": "https://github.com/michaelpapworth/jQuery.navigate/issues",
+	"bugs": "http://github.com/michaelpapworth/jQuery.navigate/issues",
 	"maintainers" : [
 		{
 			"name" : "Michael Papworth",
