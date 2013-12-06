@@ -24,7 +24,7 @@
 		"url"
 	],
 	"docs" : "http://github.com/michaelpapworth/jQuery.navigate/blob/master/README.md",
-	"download" : "http://raw.github.com/michaelpapworth/jQuery.navigate/master/navigate.debug.js"
+	"download" : "http://raw.github.com/michaelpapworth/jQuery.navigate/master/navigate.debug.js",
 	"homepage" : "http://github.com/michaelpapworth/jQuery.navigate",
 	"bugs": "http://github.com/michaelpapworth/jQuery.navigate/issues",
 	"maintainers" : [
