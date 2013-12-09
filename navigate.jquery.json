@@ -1,6 +1,6 @@
 {
 	"name" : "navigate",
-	"version" : "1.0.8",
+	"version" : "1.0.9",
 	"title" : "jQuery.navigate",
 	"author" : {
 		"name" : "Michael Papworth",
@@ -15,7 +15,7 @@
 	"dependencies" : {
 		"jquery": ">=1.6.4"
 	},
-	"description" : "An abstraction on site navigation.  When using website analytics, 'window.location' is not sufficient due to the referer not being passed on the request.  The plugin resolves this and allows for both aliased and parametrised URLs.  I also provide an API helper method, which enables quick and simple ReSTful URL building capability.",
+	"description" : "An abstraction on site navigation.  When using website analytics, window.location is not sufficient due to the referer not being passed on the request.  The plugin resolves this and allows for both aliased and parametrised URLs.  I also provide an API helper method, which enables quick and simple ReSTful URL building capability.",
 	"keywords" : [
 		"navigation",
 		"redirect",
