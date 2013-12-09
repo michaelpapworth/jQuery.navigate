@@ -7,19 +7,21 @@ The Setup
 ---------
 
 ```js
-$.navigateSetup({
-	api: /api/,
-	endpoints: {
-		'home': '/michaelpapworth',
-		'myAwesomePlugin': '/{user}/{repo}'
-	}
+$(document).ready(function() {
+	$.navigateSetup({
+		api : '/api/',
+		endpoints : {
+			'home': '/michaelpapworth',
+			'myAwesomePlugin': '/{user}/{repo}'
+		}
+	});
 });
 ```
 
 Usage
 -----
 
-The examples below are based on the setup above, let's assume the root of the site is 'http://github.com'.
+The examples below are based on the setup above, let's assume the root of the site is http://github.com.
 
 How to navigate to the preconfigured **endpoints**?
 
@@ -28,10 +30,10 @@ How to navigate to the preconfigured **endpoints**?
 	$.navigate('to', 'home');
 
 	// Address bar will read http://github.com/michaelpapworth/jQuery.navigate
-	$.navigate('to', 'myAwesomePlugin', { user: 'michaelpapworth', repo: 'jQuery.navigate' });
+	$.navigate('to', 'myAwesomePlugin', { user : 'michaelpapworth', repo : 'jQuery.navigate' });
 ```
 
-Want to navigate to a **specific url**?
+Want to navigate to a **specific URL**?
 
 ```js
 	$.navigate('goTo', 'http://github.com/michaelpapworth/jQuery.navigate');	
