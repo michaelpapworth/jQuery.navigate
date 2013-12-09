@@ -1,7 +1,7 @@
 jQuery.navigate
 ===============
 
-An abstraction on site navigation wrapped up in a jQuery plugin
+An abstraction on site navigation wrapped up in a jQuery plugin.  When using website analytics, `window.location` is not sufficient due to the referer not being passed on the request.  The plugin resolves this and allows for both aliased and parametrised URLs.  I also provide an API helper method, which enables quick and simple ReSTful URL building capability.
 
 The Setup
 ---------
