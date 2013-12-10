@@ -11,8 +11,8 @@ $(document).ready(function() {
 	$.navigateSetup({
 		api : '/api/',
 		endpoints : {
-			'home': '/michaelpapworth',
-			'myAwesomePlugin': '/{user}/{repo}'
+			'home' : '/michaelpapworth',
+			'myAwesomePlugin' : '/{user}/{repo}'
 		}
 	});
 });
@@ -42,7 +42,7 @@ Want to navigate to a **specific URL**?
 What about your **API**?
 
 ```js
-	$.ajax({ type: 'GET', url: $.navigate('api', 'resource', 123) })
+	$.ajax({ type : 'GET', url : $.navigate('api', 'resource', 123) })
 		.done(function(data) {
 			console.log('This data came from "http://github.com/api/resource/123"');
 		});
