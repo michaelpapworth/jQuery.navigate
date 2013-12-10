@@ -1,3 +1,10 @@
+/*!
+ * jQuery.navigate Plugin v1.0.10
+ * http://plugins.jquery.com/navigate/
+ *
+ * Copyright 2013 Michael Papworth
+ * Released under the MIT license
+ */
 (function ($) {
 	$.extend({
 		// The settings singleton object.
