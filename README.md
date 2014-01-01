@@ -54,3 +54,12 @@ I just want the **URL**?
 	// Just use the endpoints to build the URL for me
 	var homepageUrl = $.navigate('url', 'home');	
 ```
+
+Want to roll your own or contribute?
+----------------------
+
+  1. Fork this repository and create a new branch if you intend to contribute your work.
+  2. Clone the branch to your computer.
+  3. In the console, ensure the /node_modules/ are installed `cd jQuery.navigate && npm install`.
+  4. To build `npm test` or `grunt`.
+  5. Enable the build as you save your work `npm start` or `grunt watch`.

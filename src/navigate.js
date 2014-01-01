@@ -1,8 +1,8 @@
-/*!
- * jQuery.navigate Plugin v1.0.11
+/* !
+ * jQuery.navigate Plugin v1.0.12
  * http://plugins.jquery.com/navigate/
  *
- * Copyright 2013 Michael Papworth
+ * Copyright 2014 Michael Papworth
  * Released under the MIT license
  */
 (function ($) {

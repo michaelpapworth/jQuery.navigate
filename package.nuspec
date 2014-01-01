@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>jQuery.navigate</id>
-        <version>1.0.11</version>
+        <version>1.0.12</version>
         <title>jQuery.navigate</title>
         <authors>Michael Papworth</authors>
         <owners>Michael Papworth</owners>
@@ -11,15 +11,15 @@
         <requireLicenseAcceptance>true</requireLicenseAcceptance>
         <description>An abstraction on site navigation wrapped up in a jQuery plugin. When using website analytics, window.location is not sufficient due to the referer not being passed on the request. The plugin resolves this and allows for both aliased and parametrised URLs. I also provide an API helper method, which enables quick and simple ReSTful URL building capability.</description>
         <summary>An abstraction on site navigation wrapped up in a jQuery plugin</summary>
-        <copyright>2013 Michael Papworth</copyright>
+        <copyright>2014 Michael Papworth</copyright>
         <language>en-GB</language>
         <tags>jQuery plugins navigation redirect url location href alias parametrised</tags>
         <dependencies>
-            <dependency id="jQuery" version="1.6.4" />
+            <dependency id="jQuery" version="1.4.2" />
         </dependencies>
     </metadata>
     <files>
-        <file src="navigate.debug.js" target="content\Scripts\navigate.debug.js" />
-        <file src="navigate.min.js" target="content\Scripts\navigate.min.js" />
+        <file src="src\navigate.js" target="content\Scripts\navigate.js" />
+        <file src="dist\navigate.min.js" target="content\Scripts\navigate.min.js" />
     </files>
 </package>

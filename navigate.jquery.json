@@ -1,6 +1,6 @@
 {
 	"name" : "navigate",
-	"version" : "1.0.11",
+	"version" : "1.0.12",
 	"title" : "jQuery.navigate",
 	"author" : {
 		"name" : "Michael Papworth",
@@ -13,7 +13,7 @@
 		}
 	],
 	"dependencies" : {
-		"jquery": ">=1.6.4"
+		"jquery": ">=1.4.2"
 	},
 	"description" : "An abstraction on site navigation.  When using website analytics, window.location is not sufficient due to the referer not being passed on the request.  The plugin resolves this and allows for both aliased and parametrised URLs.  I also provide an API helper method, which enables quick and simple ReSTful URL building capability.",
 	"keywords" : [
@@ -26,7 +26,7 @@
 		"parametrised"
 	],
 	"docs" : "http://github.com/michaelpapworth/jQuery.navigate/blob/master/README.md",
-	"download" : "http://raw.github.com/michaelpapworth/jQuery.navigate/master/navigate.min.js",
+	"download" : "http://github.com/michaelpapworth/jQuery.navigate/blob/master/src/navigate.js",
 	"homepage" : "http://github.com/michaelpapworth/jQuery.navigate",
 	"bugs": "http://github.com/michaelpapworth/jQuery.navigate/issues",
 	"maintainers" : [
