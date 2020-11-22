@@ -80,6 +80,8 @@
                 Array.prototype.slice.call(arguments, 1)
             );
         };
+
+        $.extend($.navigate, _methods);
     };
 
     initOnce();
