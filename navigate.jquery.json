@@ -1,38 +1,38 @@
 {
-	"name" : "navigate",
-	"version" : "1.0.12",
-	"title" : "jQuery.navigate",
-	"author" : {
-		"name" : "Michael Papworth",
-		"url" : "http://stackoverflow.com/users/2955675/michaelpapworth"
-	},
-	"licenses": [
-		{
-			"type": "MIT",
-			"url": "http://raw.github.com/michaelpapworth/jQuery.navigate/master/LICENSE"
-		}
-	],
-	"dependencies" : {
-		"jquery": ">=1.4.2"
-	},
-	"description" : "An abstraction on site navigation.  When using website analytics, window.location is not sufficient due to the referer not being passed on the request.  The plugin resolves this and allows for both aliased and parametrised URLs.  I also provide an API helper method, which enables quick and simple ReSTful URL building capability.",
-	"keywords" : [
-		"navigation",
-		"redirect",
-		"href",
-		"window.location",
-		"url",
-		"alias",
-		"parametrised"
-	],
-	"docs" : "http://github.com/michaelpapworth/jQuery.navigate/blob/master/README.md",
-	"download" : "http://github.com/michaelpapworth/jQuery.navigate/blob/master/src/navigate.js",
-	"homepage" : "http://github.com/michaelpapworth/jQuery.navigate",
-	"bugs": "http://github.com/michaelpapworth/jQuery.navigate/issues",
-	"maintainers" : [
-		{
-			"name" : "Michael Papworth",
-			"url" : "http://stackoverflow.com/users/2955675/michaelpapworth"
-		}
-	]
+  "name": "navigate",
+  "version": "1.0.14",
+  "title": "jQuery.navigate",
+  "author": {
+    "name": "Michael Papworth",
+    "url": "http://stackoverflow.com/users/2955675/michaelpapworth"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://raw.github.com/michaelpapworth/jQuery.navigate/master/LICENSE"
+    }
+  ],
+  "dependencies": {
+    "jquery": ">=1.4.2"
+  },
+  "description": "An abstraction on site navigation wrapped up in a jQuery plugin. When using website analytics, window.location is not sufficient due to the referer not being passed on the request.  The plugin resolves this and allows for both aliased and parametrised URLs. It also provides an API helper method, which enables quick and simple ReSTful URL building capability.",
+  "keywords": [
+    "navigation",
+    "redirect",
+    "href",
+    "window.location",
+    "url",
+    "alias",
+    "parametrised"
+  ],
+  "docs": "http://github.com/michaelpapworth/jQuery.navigate/blob/master/README.md",
+  "download": "http://github.com/michaelpapworth/jQuery.navigate/blob/master/src/navigate.js",
+  "homepage": "http://github.com/michaelpapworth/jQuery.navigate",
+  "bugs": "http://github.com/michaelpapworth/jQuery.navigate/issues",
+  "maintainers": [
+    {
+      "name": "Michael Papworth",
+      "url": "http://stackoverflow.com/users/2955675/michaelpapworth"
+    }
+  ]
 }
