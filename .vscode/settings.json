@@ -1,0 +1,47 @@
+{
+    "editor": {
+        "formatOnSave": false
+    },
+    "html": {
+        "format": {
+            "wrapAttributes": "force-aligned"
+        }
+    },
+    "eslint": {
+        "enabled": true,
+        "autoFixOnSave": true,
+        "validate": [
+            "javascript",
+            "javascriptreact",
+            { "language": "typescript", "autoFix": true },
+            { "language": "typescriptreact", "autoFix": true }
+        ],
+        "workingDirectories": [
+            {
+                "directory": "./",
+                "changeProcessCWD": true
+            }
+        ]
+    },
+    "[javascript]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.wordWrapColumn": 9999999,
+    "prettier.singleQuote": true
+}
