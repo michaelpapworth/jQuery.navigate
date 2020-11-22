@@ -24,7 +24,10 @@
 				// Navigate directly to the URL provided.
 				'goTo': function (url) {
 					// Ensure the referer is passed on the request.
-					$('<a href="' + url + '"></a>')[0].click();
+          $('<a></a>')
+            .attr('href', url)
+            .get(0)
+            .click();
 				},
 
 				// Uses the params object to build the URL specified by the identifier, then navigates to it.
