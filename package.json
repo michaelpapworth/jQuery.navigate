@@ -37,9 +37,11 @@
     "test": "grunt"
   },
   "devDependencies": {
+    "eslint": "^7.14.0",
     "grunt": "~0.4.2",
     "grunt-cli": "~0.1.11",
     "grunt-contrib-uglify": "~0.2.2",
-    "grunt-contrib-watch": "~0.5.3"
+    "grunt-contrib-watch": "~0.5.3",
+    "prettier": "^2.2.0"
   }
 }
