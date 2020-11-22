@@ -5,6 +5,7 @@
  * Copyright 2014 Michael Papworth
  * Released under the MIT license
  */
+
 (function ($) {
   $.extend({
     // The settings singleton object.
@@ -72,4 +73,4 @@
       }
     },
   });
-})(jQuery);
+})(window.jQuery);
