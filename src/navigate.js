@@ -1,5 +1,5 @@
 /* !
- * jQuery.navigate Plugin v1.0.14
+ * jQuery.navigate Plugin v1.0.15
  * http://plugins.jquery.com/navigate/
  *
  * Copyright 2014 Michael Papworth
