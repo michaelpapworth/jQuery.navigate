@@ -220,3 +220,7 @@ pip-log.txt
 #############
 
 node_modules/
+
+#VSCode
+.vscode/*
+!.vscode/settings.json
